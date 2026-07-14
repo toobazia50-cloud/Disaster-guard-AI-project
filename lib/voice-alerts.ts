@@ -51,3 +51,4 @@ export type EmergencyMessageKey = keyof typeof EMERGENCY_MESSAGES
 export function getEmergencyMessage(key: EmergencyMessageKey): string {
   return EMERGENCY_MESSAGES[key]
 }
+
